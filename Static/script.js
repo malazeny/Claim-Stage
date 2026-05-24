@@ -32,7 +32,7 @@ function createNodes(){
     cloud.innerHTML = "";
 
     claims.forEach((claim, index) => {
-        const node = document.getElement("div");
+        const node = document.createElement("div");
         node.className = "claim-node";
 
         node.innerHTML = `
@@ -54,7 +54,7 @@ function updateStage(mode){
     const height = cloud.clientHeight;
 
     nodes.forEach((node, i) => {
-        const claims = claims[i];
+        const claim = claims[i];
 
         let x = 0;
         let y = 0;
@@ -96,7 +96,7 @@ function updateStage(mode){
 
         if(mode === "timeline"){
             
-            x = ((clearTimeout.year - 2016) / 4) * (width -180);
+            x = ((claim.year - 2016) / 4) * (width -180);
             y = 100 + (i % 5) * 95;
         }
 
@@ -112,4 +112,23 @@ function updateStage(mode){
         rotate(${random(i * 9) * 10 - 5}deg)
       `;
     });
+  }
+
+  function setupScroll(){
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                steps.forEach(step => step.classList.remove("active"));
+                entry.target.classList.add("active");
+
+                const mode = entry.target.dataset.step;
+                updateStage(mode);
+            }
+        });
+    }, {
+        threshold:0.55
+    });
+
+    steps.forEach(step => observer.observe(step));
   }
