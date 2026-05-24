@@ -114,7 +114,7 @@ function updateStage(mode){
     });
   }
 
-  function setupScroll(){
+function setupScroll(){
 
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
@@ -131,4 +131,44 @@ function updateStage(mode){
     });
 
     steps.forEach(step => observer.observe(step));
+}
+
+  function renderArchive(){
+
+    claimList.innerHTML = claims.map(claim => `
+        <article class="claim-card">
+            <div class="claim-card-top">
+                <span class="topic">${claim.topic}</span>
+                <span>${claim.date}</span>
+            </div>
+    
+            <h3>"${claim.claim}"</h3>
+            <p>${claim.explanation}</p>
+        </article>
+    `).join("");
   }
+
+function random(seed){
+    const x = Math.sin(seed * 9999) * 10000;
+    return x - Math.floor(x);
+}
+
+let machineTopic = "All";
+let machineSource = "All";
+let machineYear = "All";
+let machineShuffleSeed = 1;
+
+const interactiveMachine = document.getElementById("interactive-machine");
+const machineVisibleCount = document.getElementById("machine-visible-count");
+const machineSourceSelect = document.getElementById("machine-source");
+const machineYearSlider = document.getElementById("machine-year");
+const machineYearLabel = document.getElementById("machine-year-label");
+
+function machineFilteredClaims(){
+    return claims.filter(claim => {
+        const topicMatch = machineTopic === "All" || claim.topic === machineTopic; 
+        const sourceMatch = machineSource === "All"|| claim.sourceType === machineSource; 
+        const yearMatch = machineYear === "All" || claim.year === Number(machineYear);
+        return topicMatch && sourceMatch && yearMatch;
+    });
+}
