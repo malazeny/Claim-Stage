@@ -172,3 +172,104 @@ function machineFilteredClaims(){
         return topicMatch && sourceMatch && yearMatch;
     });
 }
+
+function renderInteractiveMachine(){
+    if(!interactiveMachine || !claims.length) return;
+
+    const data = machineFilteredClaims();
+    machineVisibleCount.textContent = `${data.length} visible`;
+
+    interactiveMachine.innerHTML = data.map((claim, index) => {
+        const pos = machinePosition(index, claim);
+        const color = topicColors[claim.topic] || "#c1121f";
+
+        return `
+            <article
+                class="machine-slip"
+                style="--x:${pos.x}px; --y:${pos.y}px; --r:${pos.r}deg; --topic-color:${color};"
+                title="${escapeHTML(claim.claim)}"
+            >
+                <strong>${claim.topic} · ${claim.year}</strong>
+                ${escapeHTML(claim.claim)}
+            </article>
+            `;
+    }).join("");
+}
+
+function machinePosition(index, claim){
+    const width = interactiveMachine.clientWidth || 900;
+    const columns = Math.max(2, Math.floor(width / 210));
+    const row = Math.floor(index / columns);
+    const column = index % columns;
+
+    const jitterX = random(index + machineShuffleSeed + claim.year) * 34 - 17;
+    const jitterY = random(index * 3 + machineShuffleSeed + claim.id) * 32 -16;
+
+    return{
+        x: 24 + column * ((width - 240) / Math.max(columns - 1, 1)) + jitterX,
+        y: 28 + row * 105 + jitterY,
+        r: Math.round(random(index + machineShuffleSeed * 2) * 10 -5)
+    };
+}
+
+function setupInteractiveMachineControls(){
+    if(!interactiveMachine) return;
+
+    const years = [...new Set(claims.map(claim => claim.year))].sort();
+
+    machineYearSlider.min = years[0];
+    machineYearSlider.max = years[years.length - 1]; 
+    machineYearSlider.value = years[years.length - 1];
+
+    document.querySelectorAll(".machine-topic").forEach(button => {
+        button.addEventListener("click", () => {
+            document.querySelectorAll(".machine-topic").forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+            machineTopic = button.dataset.topic; 
+            renderInteractiveMachine();
+        });
+    });
+
+    machineSourceSelect.addEventListener("change", () => {
+        machineSource = machineSourceSelect.value;
+        renderInteractiveMachine();
+    });
+
+    machineYearSlider.addEventListener("input", () => {
+        machineYear = machineYearSlider.value; 
+        machineYearLabel.textContent = machineYear; 
+        renderInteractiveMachine();
+    });
+
+    document.getElementById("machine-shuffle").addEventListener("click", () => {
+        machineShuffleSeed += 1; 
+        renderInteractiveMachine();
+    });
+
+    document.getElementById("machine-reset").addEventListener("click", () => {
+        machineTopic = "All";
+        machineSource = "All";
+        machineYear = "All"; 
+        machineShuffleSeed += 1;
+
+        document.querySelectorAll(".machine-topic").forEach(btn => btn.classList.remove("active"));
+        document.querySelector('.machine-topic[data-topic="All"]').classList.add("active");
+
+        machineSourceSelect.value = "All";
+        machineYearSlider.value = years[years.length - 1];
+        machineYearLabel.textContent = "All years";
+
+        renderInteractiveMachine();
+    });
+}
+
+function escapeHTML(value){
+    return String(value)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+window.addEventListener("resize", renderInteractiveMachine)
