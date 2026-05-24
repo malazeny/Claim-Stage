@@ -55,7 +55,7 @@
     </div>
 </section>
 
-<section id="machine" class="interactive-machine">
+<section id="machine" class="interactive-machine-section">
     <div class="machine-intro">
         <p class="eyebrow">Interactive machine</p>
         <h2>Now operate the machine yourself</h2>
@@ -69,24 +69,24 @@
         <div class="control-group">
             <label>Topic</label>
             <button class="machine-topic active" data-topic="All">All</button>
-            <button class="machine-topic active" data-topic="Election fraud">Election fraud</button>
-            <button class="machine-topic active" data-topic="Immigration">Immigration</button>
-            <button class="machine-topic active" data-topic="COVID-19">COVID-19</button>
-            <button class="machine-topic active" data-topic="Economy">Economy</button>
+            <button class="machine-topic" data-topic="Election fraud">Election fraud</button>
+            <button class="machine-topic" data-topic="Immigration">Immigration</button>
+            <button class="machine-topic" data-topic="COVID-19">COVID-19</button>
+            <button class="machine-topic" data-topic="Economy">Economy</button>
         </div>
 
 
     <div class="control-grid">
-        <div class="control-group"></div>
+        <div class="control-group">
             <label for="machine-source">Source</label>
             <select id="machine-source">
                 <option value="All">All sources</option>
                 <option value="Tweet">Tweets</option>
-                <option value="Speeche">Speeches</option>
+                <option value="Speech">Speeches</option>
                 <option value="Interview">Interviews</option>
-                <option value="Debates">Debates</option>
+                <option value="Debate">Debates</option>
             </select>
-
+        </div>
     <div class="control-group">
         <label for="machine-year">Year</label>
         <input id="machine-year" type="range" min="2016" max="2020" value="2020" step="1">
