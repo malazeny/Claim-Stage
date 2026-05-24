@@ -1,0 +1,58 @@
+[
+    {
+      "date": "2016-10-20",
+      "claim": "The election is absolutely being rigged.",
+      "topic": "Election fraud",
+      "sourceType": "Speech",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    },
+    {
+      "date": "2020-11-05",
+      "claim": "If you count the legal votes, I easily win.",
+      "topic": "Election fraud",
+      "sourceType": "Speech",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    },
+    {
+      "date": "2019-01-08",
+      "claim": "A border wall would stop most drugs entering the country.",
+      "topic": "Immigration",
+      "sourceType": "Speech",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    },
+    {
+      "date": "2020-03-06",
+      "claim": "Anyone who wants a COVID test can get one.",
+      "topic": "COVID-19",
+      "sourceType": "Speech",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    },
+    {
+      "date": "2019-09-12",
+      "claim": "The economy is the best it has ever been.",
+      "topic": "Economy",
+      "sourceType": "Tweet",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    },
+    {
+      "date": "2020-10-22",
+      "claim": "We had the greatest economy in history before COVID.",
+      "topic": "Economy",
+      "sourceType": "Debate",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    },
+    {
+      "date": "2019-07-01",
+      "claim": "Democrats want open borders.",
+      "topic": "Immigration",
+      "sourceType": "Tweet",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    },
+    {
+      "date": "2020-05-11",
+      "claim": "Coronavirus numbers are going down almost everywhere.",
+      "topic": "COVID-19",
+      "sourceType": "Tweet",
+      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+    }
+  ]
