@@ -1,58 +1,113 @@
 [
     {
+      "id": 1,
       "date": "2016-10-20",
+      "year": 2016,
       "claim": "The election is absolutely being rigged.",
       "topic": "Election fraud",
       "sourceType": "Speech",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+      "location": "Presidential Debate",
+      "rating": "False / Misleading",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
     },
+  
     {
-      "date": "2020-11-05",
-      "claim": "If you count the legal votes, I easily win.",
+      "id": 2,
+      "date": "2017-01-25",
+      "year": 2017,
+      "claim": "Three to five million people voted illegally.",
       "topic": "Election fraud",
-      "sourceType": "Speech",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+      "sourceType": "Interview",
+      "location": "ABC Interview",
+      "rating": "False",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
     },
+  
     {
-      "date": "2019-01-08",
-      "claim": "A border wall would stop most drugs entering the country.",
+      "id": 3,
+      "date": "2018-06-19",
+      "year": 2018,
+      "claim": "Immigrants caused a violent crime wave.",
       "topic": "Immigration",
       "sourceType": "Speech",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+      "location": "Campaign Rally",
+      "rating": "Misleading",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
     },
+  
     {
+      "id": 4,
+      "date": "2019-01-08",
+      "year": 2019,
+      "claim": "A border wall would stop most drugs from entering the country.",
+      "topic": "Immigration",
+      "sourceType": "Speech",
+      "location": "Oval Office Address",
+      "rating": "Misleading",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
+    },
+  
+    {
+      "id": 5,
       "date": "2020-03-06",
+      "year": 2020,
       "claim": "Anyone who wants a COVID test can get one.",
       "topic": "COVID-19",
       "sourceType": "Speech",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+      "location": "CDC Visit",
+      "rating": "False",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
     },
+  
     {
+      "id": 6,
+      "date": "2020-04-10",
+      "year": 2020,
+      "claim": "The United States had the best testing system in the world.",
+      "topic": "COVID-19",
+      "sourceType": "Interview",
+      "location": "White House Briefing",
+      "rating": "Misleading",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
+    },
+  
+    {
+      "id": 7,
       "date": "2019-09-12",
+      "year": 2019,
       "claim": "The economy is the best it has ever been.",
       "topic": "Economy",
       "sourceType": "Tweet",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+      "location": "Twitter",
+      "rating": "Exaggerated / Misleading",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
     },
+  
     {
+      "id": 8,
       "date": "2020-10-22",
+      "year": 2020,
       "claim": "We had the greatest economy in history before COVID.",
       "topic": "Economy",
       "sourceType": "Debate",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
-    },
-    {
-      "date": "2019-07-01",
-      "claim": "Democrats want open borders.",
-      "topic": "Immigration",
-      "sourceType": "Tweet",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
-    },
-    {
-      "date": "2020-05-11",
-      "claim": "Coronavirus numbers are going down almost everywhere.",
-      "topic": "COVID-19",
-      "sourceType": "Tweet",
-      "explanation": "Placeholder explanation. Replace with real fact-checking research."
+      "location": "Presidential Debate",
+      "rating": "Exaggerated / Misleading",
+      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
+      "source": "Fact-check source here",
+      "link": "https://example.com"
     }
   ]

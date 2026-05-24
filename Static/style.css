@@ -254,3 +254,22 @@ claim-card p{
     flex-wrap:wrap;
     gap:10px;
 }
+
+.machine-topic,
+#machine-reset, 
+#machine-shuffle{
+    border: 1px solid var(--ink);
+    background: transparent;
+    padding: 10px 13px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.machine-topic.active, 
+.machine-topic:hover, 
+#machine-reset:hover,
+#machine-shuffle:hover{
+    background:var(--ink);
+    color: var(--paper);
+}
