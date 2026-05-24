@@ -53,5 +53,60 @@
         </article>
     </div>
 </section>
+
+<section id="machine" class="interactive-machine">
+    <div class="machine-intro">
+        <p class="eyebrow">Interactive machine</p>
+        <h2>Now operate the machine yourself</h2>
+        <p>
+            Use the controls to filter the archive.
+            The claim slips reshuffle based on topic, source, and year
+        </p>
+    </div>
+
+    <div class="machine-controls">
+        <div class="control-group">
+            <label>Topic</label>
+            <button class="machine-topic active" data-topic="All">All</button>
+            <button class="machine-topic active" data-topic="Election fraud">Election fraud</button>
+            <button class="machine-topic active" data-topic="Immigration">Immigration</button>
+            <button class="machine-topic active" data-topic="COVID-19">COVID-19</button>
+            <button class="machine-topic active" data-topic="Economy">Economy</button>
+        </div>
+
+
+    <div class="control-grid">
+        <div class="control-group"></div>
+            <label for="machine-source">Source</label>
+            <select id="machine-source">
+                <option value="All">All sources</option>
+                <option value="Tweet">Tweets</option>
+                <option value="Speeche">Speeches</option>
+                <option value="Interview">Interviews</option>
+                <option value="Debates">Debates</option>
+            </select>
+
+    <div class="control-group">
+        <label for="machine-year">Year</label>
+        <input id="machine-year" type="range" min="2016" max="2020" value="2020" step="1">
+        <span id="machine-year-label">All years</span>
+    </div>
+
+            <button id="machine-reset">Reset</button>
+            <button id="machine-shuffle">Shuffle</button>
+        </div>
+    </div>
+</section>
+
+<section class="archive">
+    <div class="archive-heading">
+        <p class="eyebrow">Archive</p>
+        <h2>Selected claims</h2>
+    </div>
+
+    <div id="claim-list" class="claim-list"></div>
+</section>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
