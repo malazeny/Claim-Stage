@@ -117,3 +117,92 @@ h1{
         opacity 500ms ease, 
         width 700ms ease;
 }
+
+.claim-node:hover{
+    z-index: 20;
+    transform: scale(1.05) !important;
+}
+
+.steps{
+    padding-top: 20vh;
+}
+
+.step{
+    min-height: 82vh;
+    opacity: 0.25;
+    transition: opacity 400ms ease;
+}
+
+.step.active{
+    opacity: 1;
+}
+
+.step-number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color:var(--red);
+    font-size: 12px;
+    letter-spacing: 0.15rem;
+}
+
+.step h2{
+    font-size: clamp(34px,4vw,64px);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+    margin: 8px 0 18px;
+}
+
+.step p:last-child{
+    color: var(--muted);
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.archive{
+    width:min(1100px, calc(100% - 40px));
+    margin: 140px auto;
+}
+
+archive-heading h2{
+    font-size: 72px;
+    letter-spacing: -0.06em;
+    margin-top: 8px;
+}
+
+.claim-list{
+    display:grid;
+    gap:20px;
+}
+
+.claim-card{
+    background:white;
+    border:1px solid var(--line);
+    padding: 24px;
+}
+
+.claim-card-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.claim-card h3{
+    font-size: 28px;
+    line-height: 1.3;
+    margin: 0 0 12px;
+}
+
+claim-card p{
+    color: #45403b;
+    line-height: 1.7;
+}
+
+.topic{
+    font-weight: 900;
+    color: var(--red);
+}
