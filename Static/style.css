@@ -325,6 +325,7 @@ h1{
     radial-gradient(circle at 18% 24%, rgba(193,18,31,0.08), transparent 24%),
     radial-gradient(circle at 86% 74%, rgba(29,78,137,0.08), transparent 28%),
     repeating-linear-gradient(0deg, transparent 0 39px, rgba(216,207,195,0.5) 39px 40px);
+}
 
 .machine-slip{
     position: absolute;

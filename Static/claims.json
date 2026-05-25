@@ -1,113 +1,1122 @@
 [
-    {
-      "id": 1,
-      "date": "2016-10-20",
-      "year": 2016,
-      "claim": "The election is absolutely being rigged.",
-      "topic": "Election fraud",
-      "sourceType": "Speech",
-      "location": "Presidential Debate",
-      "rating": "False / Misleading",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    },
-  
-    {
-      "id": 2,
-      "date": "2017-01-25",
-      "year": 2017,
-      "claim": "Three to five million people voted illegally.",
-      "topic": "Election fraud",
-      "sourceType": "Interview",
-      "location": "ABC Interview",
-      "rating": "False",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    },
-  
-    {
-      "id": 3,
-      "date": "2018-06-19",
-      "year": 2018,
-      "claim": "Immigrants caused a violent crime wave.",
-      "topic": "Immigration",
-      "sourceType": "Speech",
-      "location": "Campaign Rally",
-      "rating": "Misleading",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    },
-  
-    {
-      "id": 4,
-      "date": "2019-01-08",
-      "year": 2019,
-      "claim": "A border wall would stop most drugs from entering the country.",
-      "topic": "Immigration",
-      "sourceType": "Speech",
-      "location": "Oval Office Address",
-      "rating": "Misleading",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    },
-  
-    {
-      "id": 5,
-      "date": "2020-03-06",
-      "year": 2020,
-      "claim": "Anyone who wants a COVID test can get one.",
-      "topic": "COVID-19",
-      "sourceType": "Speech",
-      "location": "CDC Visit",
-      "rating": "False",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    },
-  
-    {
-      "id": 6,
-      "date": "2020-04-10",
-      "year": 2020,
-      "claim": "The United States had the best testing system in the world.",
-      "topic": "COVID-19",
-      "sourceType": "Interview",
-      "location": "White House Briefing",
-      "rating": "Misleading",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    },
-  
-    {
-      "id": 7,
-      "date": "2019-09-12",
-      "year": 2019,
-      "claim": "The economy is the best it has ever been.",
-      "topic": "Economy",
-      "sourceType": "Tweet",
-      "location": "Twitter",
-      "rating": "Exaggerated / Misleading",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    },
-  
-    {
-      "id": 8,
-      "date": "2020-10-22",
-      "year": 2020,
-      "claim": "We had the greatest economy in history before COVID.",
-      "topic": "Economy",
-      "sourceType": "Debate",
-      "location": "Presidential Debate",
-      "rating": "Exaggerated / Misleading",
-      "explanation": "Placeholder explanation. Replace with real fact-check research and evidence.",
-      "source": "Fact-check source here",
-      "link": "https://example.com"
-    }
-  ]
+  {
+    "id": 1,
+    "date": "2021-01-20",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cWe just got seventy five million votes. And that's a record in the history of in the history of sitting presidents.\u201d"
+  },
+  {
+    "id": 2,
+    "date": "2021-01-19",
+    "topic": "Election Fraud",
+    "sourceType": "Vlog",
+    "claim": "\u201cOur agenda was not about right or left. It wasn't about Republican or Democrat, but about the good of a nation.\u201d"
+  },
+  {
+    "id": 3,
+    "date": "2021-01-13",
+    "topic": "Election Fraud",
+    "sourceType": "Vlog",
+    "claim": "\u201cLike all of you, I was shocked and deeply saddened by the calamity at the Capitol last week.\u201d"
+  },
+  {
+    "id": 4,
+    "date": "2021-01-12",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cIf you look at what other people have said -- politicians at a high level -- about the riots during the summer, the horrible riots in Portland and Seattle, in various other -- other places, that was a real problem -- what they said.\u201d"
+  },
+  {
+    "id": 5,
+    "date": "2021-01-12",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cThe impeachment hoax is a continuation of the greatest and most vicious witch hunt in the history of our country.\u201d"
+  },
+  {
+    "id": 6,
+    "date": "2021-01-12",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cBecause not only did I win Texas in historic numbers, but I won border towns, which are largely Hispanic.\u201d"
+  },
+  {
+    "id": 7,
+    "date": "2021-01-07",
+    "topic": "Election Fraud",
+    "sourceType": "Vlog",
+    "claim": "\u201cI immediately deployed the National Guard and federal law enforcement to secure the building and expel the intruders. America is, and must always be, a nation of law and order.\u201d"
+  },
+  {
+    "id": 8,
+    "date": "2021-01-07",
+    "topic": "Election Fraud",
+    "sourceType": "Vlog",
+    "claim": "\u201cMy campaign vigorously pursued every legal avenue to contest the election results. My only goal was to ensure the integrity of the vote. In so doing, I was fighting to defend American democracy.\u201d"
+  },
+  {
+    "id": 9,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cThe media is the biggest problem we have as far as I'm concerned, single biggest problem. The fake news and the Big Tech. Big Tech is now coming into their own. We beat them. Four years ago we surprised them. We took them by surprise, and this year they rigged an election. They rigged it like they've never rigged an election before.\u201d"
+  },
+  {
+    "id": 10,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cAnd to use a favorite term that all of you people really came up with: We will stop the steel. Today, I will lay out just some of the evidence proving that we won this election and we won it by a landslide. This was not a close election.\u201d"
+  },
+  {
+    "id": 11,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cAlmost 75 million people voted for our campaign, the most of any incumbent president by far in the history of our country, 12 Million More people than four years ago.\u201d"
+  },
+  {
+    "id": 12,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cI was told by the real pollsters -- we do have real pollsters, they know that we were going to do well and we were going to win.\u201d"
+  },
+  {
+    "id": 13,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cAnd by the way, does anybody believe that Joe had 80 million votes? Does anybody believe that? He had 80 million computer votes. It's a disgrace.\u201d"
+  },
+  {
+    "id": 14,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cStates want to revote. The states got defrauded, They were given false information. They voted on it. Now they want to recertify. They want it back.\u201d"
+  },
+  {
+    "id": 15,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cThen we're stuck with a president who lost the election by a lot and we have to live with that for four more years. We're just not going to let that happen.\u201d"
+  },
+  {
+    "id": 16,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cFor years, Democrats have gotten away with election fraud and weak Republicans, and that's what they are. There's so many weak Republicans.\u201d"
+  },
+  {
+    "id": 17,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cAnd we set a record with Hispanic, with the Black community, we set a record with everybody.\u201d"
+  },
+  {
+    "id": 18,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cI want to thank the more than 140 members of the house. Those are warriors. They're over there working like you've never seen before. Studying, talking, actually going all the way back, studying the roots of the Constitution, because they know we have the right to send a bad vote that was illegally gotten.\u201d"
+  },
+  {
+    "id": 19,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cAnd the only unhappy person in the United States, single most unhappy Is Hillary Clinton because she said, 'Why didn't you do this for me four years ago? Why didn't you do this for me four years ago? Changed the votes, 10,000 in Michigan. You could have changed the whole thing.\" But she's not too happy.\u201d"
+  },
+  {
+    "id": 20,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cShe [Kelly Loeffler] worked so hard. So, let's give her and David [Perdue] a little special hand because it was rigged against them....They fought a good race, They never had a shot.\u201d"
+  },
+  {
+    "id": 21,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cThat [Dominion] equipment should never have been allowed to be used, and I was telling these people don't let him use this stuff.\u201d"
+  },
+  {
+    "id": 22,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cHow come Hunter [Biden] gets three and a half million dollars from the mayor of Moscow, his wife.\u201d"
+  },
+  {
+    "id": 23,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cWe will not be intimidated into accepting the hoaxes and the lies That we've been forced to believe. Over the past several weeks, we've amassed overwhelming evidence about a fake election.\u201d"
+  },
+  {
+    "id": 24,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cI had a campaign against Michelle Obama and Barack Hussein Obama against Stacy [Abrams], and I had Brian Kemp.\u201d"
+  },
+  {
+    "id": 25,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cIn every single swing state, local officials, state officials, almost all Democrats made illegal and unconstitutional changes to election procedures without the mandated approvals by the state legislatures that these changes paved a way for fraud on a scale never seen before.\u201d"
+  },
+  {
+    "id": 26,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cIn Pennsylvania, the Democrat secretary of state and the Democrat state supreme court justices illegally abolished the signature verification requirements just 11 days prior to the election. So think of what they did. No longer is there signature verification....Because they want to cheat. That's the only reason.\u201d"
+  },
+  {
+    "id": 27,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cThere were over 205,000 more ballots counted in Pennsylvania. Think of this, you had 205,000 more ballots than you had voters. That means you had two -- Where did they come from? You know where they came from? Somebody's imagination, whatever they needed.\u201d"
+  },
+  {
+    "id": 28,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cOver 14,000 ballots [in Pennsylvania] were cast by out-of-state voters, so these are voters that don't live in this state.\u201d"
+  },
+  {
+    "id": 29,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cMore than 10,000 votes In Pennsylvania were illegally counted even though they were received after Election Day. In other words, they were received after Election Day. Let's count them anyway, and what they did in many cases is, they did fraud, they took the date, and they moved it back so that it no longer is after Election Day.\u201d"
+  },
+  {
+    "id": 30,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cTwenty-five thousand ballots in Pennsylvania were requested by nursing home residents, all in a single giant batch, not legal, indicating an enormous, illegal ballot harvesting operation. You're not allowed to do it, it's against the law.\u201d"
+  },
+  {
+    "id": 31,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cThey [Pennsylvania] want to recertify their votes. They want to recertify. But the only way that can happen is if Mike Pence agrees to send it back. Mike Pence has to agree to send it back.\u201d"
+  },
+  {
+    "id": 32,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cSomebody says, well, we have to obey the Constitution. And you are because you're protecting our country and you're protecting the Constitution. So you are. But think of what happens. Let's say they're stiffs and they're stupid people, and they say, well, we really have no choice.\u201d"
+  },
+  {
+    "id": 33,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cIf you don't do that, that means you will have a president of the United States for four years with his wonderful son, you will have a president who lost all of these states. Or you will have a president, to put it another way, who was voted on by a bunch of stupid people who lost all of these states. You will have an illegitimate president.\u201d"
+  },
+  {
+    "id": 34,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cWell, we won Wisconsin.\u201d"
+  },
+  {
+    "id": 35,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cThis crowd is, again, a testament to it. I did no advertising, I did nothing.\u201d"
+  },
+  {
+    "id": 36,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cIn Wisconsin, corrupt Democrat-run cities deployed more than 500 illegal, unmanned, unsecured drop boxes, which collected a minimum of 91,000 unlawful votes....They have these lockboxes. And, you know, they'd pick them up and they disappear for two days. People would say where's that box? They disappeared. Nobody even knew where the hell it was.\u201d"
+  },
+  {
+    "id": 37,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cIn addition, over 170,000 absentee votes were counted in Wisconsin without a valid absentee ballot application. So they had a vote, but they had no application, and that's illegal in Wisconsin. Meaning those votes were blatantly done in opposition to state law and they came 100% from Democrat areas such as Milwaukee and Madison, 100%.\u201d"
+  },
+  {
+    "id": 38,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cIn Madison, 17,000 votes were deposited in so-called human drop boxes. You know what that is, right? Where operatives stuff thousands of unsecured ballots into duffle bags on park benches across the city, in complete defiance of cease and desist letters from state legislature.\u201d"
+  },
+  {
+    "id": 39,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cAccording to eyewitness testimony, Postal Service workers in Wisconsin were also instructed to illegally backdate approximately 100,000 ballots. The margin of difference in Wisconsin was less than 20,000 votes. Each one of these things alone wins us the state.\u201d"
+  },
+  {
+    "id": 40,
+    "date": "2021-01-06",
+    "topic": "Election Fraud",
+    "sourceType": "Speech",
+    "claim": "\u201cWe've been trying to get verifications of signatures in Fulton County, they won't let us do it. The only reason they won't is because we'll find things in the hundreds of thousands. Why wouldn't they let us verify signatures in Fulton County, which is known for being very corrupt? They won't do it.\u201d"
+  },
+  {
+    "id": 41,
+    "date": "2021-01-19",
+    "topic": "Immigration",
+    "sourceType": "Vlog",
+    "claim": "\u201cThe American people pleaded with Washington to finally secure the nation's borders. I am pleased to say we answered that plea and achieved the most secure border in U.S. history.\u201d"
+  },
+  {
+    "id": 42,
+    "date": "2021-01-19",
+    "topic": "Immigration",
+    "sourceType": "Vlog",
+    "claim": "\u201cWe proudly leave the next administration with the strongest and most robust border security measures ever put into place. This includes historic agreements with Mexico, Guatemala, Honduras, and El Salvador...\u201d"
+  },
+  {
+    "id": 43,
+    "date": "2021-01-19",
+    "topic": "Immigration",
+    "sourceType": "Vlog",
+    "claim": "\u201c...along with more than 450 miles of powerful new wall.\u201d"
+  },
+  {
+    "id": 44,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe're going to the southern border. As you know, we've completed the wall.\u201d"
+  },
+  {
+    "id": 45,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cIt's been tremendously successful, far beyond what anyone thought. We're stopping, in large numbers, the drugs coming into the country for many, many years and decades.\u201d"
+  },
+  {
+    "id": 46,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe're stopping a lot of illegal immigration. Our numbers have been very good.\u201d"
+  },
+  {
+    "id": 47,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cThere does seem to be a surge now because people are coming up. Some caravans are starting to form because they think there's going to be a lot in it for them.\u201d"
+  },
+  {
+    "id": 48,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cLooking at our wall, we reformed our immigration system and achieved the most secure southern border in U.S. history. It is at a level that it's never been before.\u201d"
+  },
+  {
+    "id": 49,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cThey even promised a wall. If you remember, about 10 years ago, they promised a wall but they couldn't get it built.\u201d"
+  },
+  {
+    "id": 50,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cGetting it built was even tougher. All the different chains of title and all the different things we had to go through -- very, very complex and very difficult, but we got it done.\u201d"
+  },
+  {
+    "id": 51,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cIn every region that we've built the wall, illegal crossings and drug smuggling have plummeted. Absolutely plummeted. In the Rio Grande Valley, crossings have dropped nearly 80 percent. In Yuma, Arizona, illegal entries have been slashed by 90 percent.\u201d"
+  },
+  {
+    "id": 52,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cNationwide, ICE and Border Patrol have seized over 2 million pounds of fentanyl, heroin, meth, and other deadly narcotics, saving thousands and thousands of lives.\u201d"
+  },
+  {
+    "id": 53,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe\u2019ve arrested nearly 500,000 illegal aliens with criminal records, some with very serious criminal records of the type you don't want to know about, like murder.\u201d"
+  },
+  {
+    "id": 54,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe removed nearly 20,000 gang members from the United States, including 4,500 members of MS-13 -- probably the worst gang of them all.\u201d"
+  },
+  {
+    "id": 55,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cOur most important reform was ending catch and release -- not easy to do; you're dealing with Congress; it's very, very difficult -- which is the functional equivalent of open borders, but even worse: It's catch and release them.\u201d"
+  },
+  {
+    "id": 56,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe actually had 27,000 Mexican soldiers guarding our borders over the last two years.\u201d"
+  },
+  {
+    "id": 57,
+    "date": "2021-01-12",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cRemoving any of these [anti-immigration] measures would hamstring our workers, endanger our country, and cost taxpayers hundreds of billions of dollars a year.\u201d"
+  },
+  {
+    "id": 58,
+    "date": "2021-01-06",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cYou know, the wall is built.\u201d"
+  },
+  {
+    "id": 59,
+    "date": "2021-01-06",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe're doing record numbers at the wall.\u201d"
+  },
+  {
+    "id": 60,
+    "date": "2021-01-06",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cNow, they want to take down the wall.\u201d"
+  },
+  {
+    "id": 61,
+    "date": "2021-01-06",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe got rid of catch and release.\u201d"
+  },
+  {
+    "id": 62,
+    "date": "2021-01-04",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cRemember we'll build a wall? We're going to build a wall. And that's right, Mexico is paying for the wall, or if I were here they would be, because we were going to charge them a nice fee right at the entry points. And, uh, they were paying for the wall.\u201d"
+  },
+  {
+    "id": 63,
+    "date": "2021-01-04",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cThey paid for 28,000 troops along the wall and along the border, which we don't need so much any more.\u201d"
+  },
+  {
+    "id": 64,
+    "date": "2021-01-04",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe built almost 500 miles of wall.\u201d"
+  },
+  {
+    "id": 65,
+    "date": "2021-01-04",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cThey want to rip down the wall. They want to rip down.\u201d"
+  },
+  {
+    "id": 66,
+    "date": "2021-01-04",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cThat's why the numbers have been so great.\u201d"
+  },
+  {
+    "id": 67,
+    "date": "2021-01-04",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201c[Democrats will] turn our entire country into one giant sanctuary for criminal aliens, setting loose tens of thousands of dangerous offenders and putting MS-13 gang members straight into your children's schools.\u201d"
+  },
+  {
+    "id": 68,
+    "date": "2020-12-05",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cI heard him [Biden] say it the other day, 'We will take down the wall.'\u201d"
+  },
+  {
+    "id": 69,
+    "date": "2020-12-05",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cWe have the strongest border we've ever had now....it's [Trump's border barrier] had a tremendous impact on illegal immigrants coming into the country.\u201d"
+  },
+  {
+    "id": 70,
+    "date": "2020-12-05",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cI don't know if you saw it, the court just ruled that the money I took was taken legally, so at least we have a legal wall.\u201d"
+  },
+  {
+    "id": 71,
+    "date": "2020-12-05",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cThe radical Democrats will implement nationwide catch and release.  Do you know what that is? You catch a killer, you catch a rapist, and you say 'Oh, thank you very much, please give us your name.' 'Oh, come back in three years, we're going to put you on trial.' 'Oh, good.' You never see them, by the way.\u201d"
+  },
+  {
+    "id": 72,
+    "date": "2020-12-05",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201cI had that debate with Joe Biden? He said 'Oh, they come back.' Yeah. They don't come back. They don't come back. No, they don't come back, like never. Maybe one percent, but I doubt it. That's the end of them.\u201d"
+  },
+  {
+    "id": 73,
+    "date": "2020-11-29",
+    "topic": "Immigration",
+    "sourceType": "Interview",
+    "claim": "\u201cWe have the best numbers we have ever had on the Southern border.\u201d"
+  },
+  {
+    "id": 74,
+    "date": "2020-11-03",
+    "topic": "Immigration",
+    "sourceType": "Interview",
+    "claim": "\u201cThe wall is going to be completed within a very short period of time. We're over 410 miles.\u201d"
+  },
+  {
+    "id": 75,
+    "date": "2020-11-03",
+    "topic": "Immigration",
+    "sourceType": "Interview",
+    "claim": "\u201cWe have the best numbers that we've ever had in the southern border.\u201d"
+  },
+  {
+    "id": 76,
+    "date": "2020-11-03",
+    "topic": "Immigration",
+    "sourceType": "Interview",
+    "claim": "\u201cMexico will be paying for the wall and they're paying for the wall, you know.\u201d"
+  },
+  {
+    "id": 77,
+    "date": "2020-11-03",
+    "topic": "Immigration",
+    "sourceType": "Interview",
+    "claim": "\u201cWe've built a 411 miles as of today, and we're building 10 miles, 10 miles a lot, 10 miles a week, and we'll be finished very shortly, totally completed.\u201d"
+  },
+  {
+    "id": 78,
+    "date": "2020-11-03",
+    "topic": "Immigration",
+    "sourceType": "Interview",
+    "claim": "\u201cOur southern border...it's never been this secure as you've heard.\u201d"
+  },
+  {
+    "id": 79,
+    "date": "2020-11-03",
+    "topic": "Immigration",
+    "sourceType": "Interview",
+    "claim": "\u201cWe actually have 27,000 Mexican soldiers standing on our border right now guarding us. Can you believe it? Guarding us from people coming in from Mexico?\u201d"
+  },
+  {
+    "id": 80,
+    "date": "2020-11-02",
+    "topic": "Immigration",
+    "sourceType": "Speech",
+    "claim": "\u201c...dissolve your borders...\u201d"
+  },
+  {
+    "id": 81,
+    "date": "2021-01-19",
+    "topic": "COVID-19",
+    "sourceType": "Vlog",
+    "claim": "\u201cAmerica outperformed other countries economically because of our incredible economy and the economy that we built.\u201d"
+  },
+  {
+    "id": 82,
+    "date": "2021-01-19",
+    "topic": "COVID-19",
+    "sourceType": "Vlog",
+    "claim": "\u201cWe passed nearly four trillion dollars in economic relief, saved or supported over 50 million jobs and slashed the unemployment rate in half.\u201d"
+  },
+  {
+    "id": 83,
+    "date": "2021-01-04",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cKelly [Loeffler] helped rescue the US economy from the China virus, passing nearly four trillion dollars in economic relief, saving over 1.5 million Georgia jobs.\u201d"
+  },
+  {
+    "id": 84,
+    "date": "2021-01-04",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cWe're rounding the turn because of what we did with the vaccines.\u201d"
+  },
+  {
+    "id": 85,
+    "date": "2021-01-04",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cThe economy boomed at 33.4% last quarter. That's the fastest rate ever recorded, and we're talking about pandemic, during a pandemic.\u201d"
+  },
+  {
+    "id": 86,
+    "date": "2021-01-03",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cThe number of cases and deaths of the China Virus is far exaggerated in the United States because of @CDCgov's ridiculous method of determination compared to other countries, many of whom report, purposely, very inaccurately and low. 'When in doubt, call it Covid.' Fake News!\u201d"
+  },
+  {
+    "id": 87,
+    "date": "2020-12-31",
+    "topic": "COVID-19",
+    "sourceType": "Vlog",
+    "claim": "\u201cWe saved millions of American lives.\u201d"
+  },
+  {
+    "id": 88,
+    "date": "2020-12-31",
+    "topic": "COVID-19",
+    "sourceType": "Vlog",
+    "claim": "\u201cThrough the Paycheck Protection Program, we saved or supported more than 51 million American jobs.\u201d"
+  },
+  {
+    "id": 89,
+    "date": "2020-12-31",
+    "topic": "COVID-19",
+    "sourceType": "Vlog",
+    "claim": "\u201cWe have slashed the unemployment rate from 14.7% all the way down to 6.7%. And a lot of people thought that the 14.7% could be 32%, or 40%, or 45%.\u201d"
+  },
+  {
+    "id": 90,
+    "date": "2020-12-29",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cBiden failed with Swine Flu!\u201d"
+  },
+  {
+    "id": 91,
+    "date": "2020-12-27",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cIncrease payments to the people, get rid of the 'pork.'\u201d"
+  },
+  {
+    "id": 92,
+    "date": "2020-12-26",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cI simply want to get our great people $2000, rather than the measly $600 that is now in the bill. Also, stop the billions of dollars in 'pork.'\u201d"
+  },
+  {
+    "id": 93,
+    "date": "2020-12-26",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cThe lockdowns in Democrat run states are absolutely ruining the lives of so many people - Far more than the damage that would be caused by the China Virus. Cases in California have risen despite the lockdown, yet Florida & others are open & doing well. Common sense please!\u201d"
+  },
+  {
+    "id": 94,
+    "date": "2020-12-24",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cWe are delivering millions of doses of a safe and effective vaccine that will soon end this terrible pandemic and save millions and millions of lives.\u201d"
+  },
+  {
+    "id": 95,
+    "date": "2020-12-24",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cMore than one million Americans have already received the China Virus Vaccine, a record pace!\u201d"
+  },
+  {
+    "id": 96,
+    "date": "2020-12-22",
+    "topic": "COVID-19",
+    "sourceType": "Vlog",
+    "claim": "\u201cThroughout the summer Democrats cruelly blocked COVID relief legislation in an effort to advance their extreme left-wing agenda and influence the election.\u201d"
+  },
+  {
+    "id": 97,
+    "date": "2020-12-22",
+    "topic": "COVID-19",
+    "sourceType": "Vlog",
+    "claim": "\u201cThe bill also allows stimulus checks for the family members of illegal aliens, allowing them to get up to $1,800 each. This is far more than the Americans are given.\u201d"
+  },
+  {
+    "id": 98,
+    "date": "2020-12-22",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cDistribution of both vaccines is going very smoothly. Amazing how many people are being vaccinated, record numbers. Our Country, and indeed the World, will soon see the great miracle of what the Trump Administration has accomplished. They said it couldn't be done!!!\u201d"
+  },
+  {
+    "id": 99,
+    "date": "2020-12-11",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cThe Swine Flu (H1N1), and the attempt for a vaccine by the Obama Administration, with Joe Biden in charge, was a complete and total disaster.\u201d"
+  },
+  {
+    "id": 100,
+    "date": "2020-12-09",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cGermany has consistently been used by my obnoxious critics as the country that we should follow on the way to handle the China Virus. So much for that argument. I love Germany - Vaccines on the way!!!\u201d"
+  },
+  {
+    "id": 101,
+    "date": "2020-12-08",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cIf authorized, tens of millions of vaccine doses will be available this month. And we'll get it distributed very quickly.\u201d"
+  },
+  {
+    "id": 102,
+    "date": "2020-12-08",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cAnd it [vaccine] will end the pandemic. It will end the pandemic....this will vanquish the -- the problem, this horrible scourge -- as I call it, the 'China virus,' because that's where it came from.\u201d"
+  },
+  {
+    "id": 103,
+    "date": "2020-12-08",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cSince April, advances in treatments have already helped reduce the mortality rate by 85 percent. Think of that: 85 percent. \u201d"
+  },
+  {
+    "id": 104,
+    "date": "2020-12-08",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cWe've conducted over 200 million tests. Think of that: 200 million tests -- more than all of the European Union combined. It's not even close.\u201d"
+  },
+  {
+    "id": 105,
+    "date": "2020-12-08",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cI've worked and invoked the Defense Production Act over 100 times to manufacture essential supplies in the United States.\u201d"
+  },
+  {
+    "id": 106,
+    "date": "2020-12-05",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cA lot of people already are vaccinated. It's called you have -- you caught it, and you're immune. I hope it's true. You know, they say that before I had it, they said if you catch it you're immune for life. Once I got it, they said if you catch it you're immune for four months, right?\u201d"
+  },
+  {
+    "id": 107,
+    "date": "2020-12-05",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cWe went down less and we went up more than any other country in the world.\u201d"
+  },
+  {
+    "id": 108,
+    "date": "2020-12-05",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cWe're rounding the corner in the pandemic.\u201d"
+  },
+  {
+    "id": 109,
+    "date": "2020-12-05",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cFirst of all, these states and cities should open up. They should open up.\u201d"
+  },
+  {
+    "id": 110,
+    "date": "2020-12-05",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201c[The Paycheck Protection Plan] saved 1.5 million Georgia jobs.\u201d"
+  },
+  {
+    "id": 111,
+    "date": "2020-12-01",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cThe president was RIGHT when he said get the kids back in school Now Dr. Fauci says, 'You know what, I'm looking at the data the kids should be in school.'\u201d"
+  },
+  {
+    "id": 112,
+    "date": "2020-11-30",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cWe are now just days away from delivering millions of doses of a safe and effective vaccine that will soon end this pandemic and save millions of lives.\u201d"
+  },
+  {
+    "id": 113,
+    "date": "2020-11-26",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cThe whole world is suffering and we are rounding the curve.\u201d"
+  },
+  {
+    "id": 114,
+    "date": "2020-11-26",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cJoe Biden failed with the swine flu, H1N1, totally failed with the swine flu.\u201d"
+  },
+  {
+    "id": 115,
+    "date": "2020-11-21",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "Joe Biden was a total disaster in handling the H1N1 Swine Flu, would never have produced a Vaccine in record time (years ahead of schedule), and would do a terrible job of Vaccine delivery - But doesn't everybody already know that!"
+  },
+  {
+    "id": 116,
+    "date": "2020-11-21",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cThe Fake News is not talking about the fact that 'Covid' is running wild all over the World, not just in the U.S. I was at the Virtual G-20 meeting early this morning and the biggest subject was Covid. We will be healing fast, especially with our vaccines!\u201d"
+  },
+  {
+    "id": 117,
+    "date": "2020-11-19",
+    "topic": "COVID-19",
+    "sourceType": "Tweet",
+    "claim": "\u201cTHE COVID DRUGS NOW AVAILABLE TO MAKE PEOPLE BETTER ARE AMAZING, BUT SELDOM TALKED ABOUT BY THE MEDIA! Mortality rate is 85% down!\u201d"
+  },
+  {
+    "id": 118,
+    "date": "2020-11-13",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cOver 99.98 percent of those under the age of 50 make a full and quick recovery.\u201d"
+  },
+  {
+    "id": 119,
+    "date": "2020-11-13",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cCase levels are high, but a lot of the case levels are high because of the fact that we have the best testing program anywhere in the world. We've developed the most and the best tests. And we test far more than any other country, so it shows, obviously, more cases.\u201d"
+  },
+  {
+    "id": 120,
+    "date": "2020-11-13",
+    "topic": "COVID-19",
+    "sourceType": "Speech",
+    "claim": "\u201cWe have among the lowest case-fatality rates -- our country -- anywhere in the world, the entire world. And we performed significantly better than our peer countries.\u201d"
+  },
+  {
+    "id": 121,
+    "date": "2021-01-19",
+    "topic": "Economy",
+    "sourceType": "Vlog",
+    "claim": "\u201cWe also built the greatest economy in the history of the world\u2026Powered by these policies, we built the greatest economy in the history of the world.\u201d"
+  },
+  {
+    "id": 122,
+    "date": "2021-01-19",
+    "topic": "Economy",
+    "sourceType": "Vlog",
+    "claim": "\u201cWe slashed more job killing regulations than any administration had ever done before.\u201d"
+  },
+  {
+    "id": 123,
+    "date": "2021-01-06",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cWe've created the greatest economy in history.\u201d"
+  },
+  {
+    "id": 124,
+    "date": "2021-01-06",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cWe got you the biggest regulation cuts, There's no president, whether it's four years, eight years, or in one case more got anywhere near the regulation cuts.\u201d"
+  },
+  {
+    "id": 125,
+    "date": "2021-01-06",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cUsed to take 20 years to get a highway approved, wow we're down to two. I want to get it down to one but we're down to two.\u201d"
+  },
+  {
+    "id": 126,
+    "date": "2021-01-04",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cAnd the greatest restrictions [regulation cuts]. We were so restricted, we couldn't breathe in this country, that's one of the big -- I think it might've been more important in many ways than the tax cuts.\u201d"
+  },
+  {
+    "id": 127,
+    "date": "2020-12-31",
+    "topic": "Economy",
+    "sourceType": "Vlog",
+    "claim": "\u201cBefore the pandemic, we built the greatest economy in the history of the world.\u201d"
+  },
+  {
+    "id": 128,
+    "date": "2020-12-31",
+    "topic": "Economy",
+    "sourceType": "Vlog",
+    "claim": "\u201cOur economy is growing at the most rapid rate ever recorded, 33.4% last quarter.\u201d"
+  },
+  {
+    "id": 129,
+    "date": "2020-12-08",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cThe regulation reductions, the greatest in history.\u201d"
+  },
+  {
+    "id": 130,
+    "date": "2020-12-05",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cWe cut more regulations than any president in the history of our country. That's one of the reasons our business came back.\u201d"
+  },
+  {
+    "id": 131,
+    "date": "2020-12-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cRegulation cuts, the biggest in history.\u201d"
+  },
+  {
+    "id": 132,
+    "date": "2020-11-29",
+    "topic": "Economy",
+    "sourceType": "Interview",
+    "claim": "\u201cbiggest regulation cuts in history\u201d"
+  },
+  {
+    "id": 133,
+    "date": "2020-11-29",
+    "topic": "Economy",
+    "sourceType": "Interview",
+    "claim": "\u201cWe got hit by a pandemic, but, prior to the pandemic, I had the highest [economic] numbers in history.\u201d"
+  },
+  {
+    "id": 134,
+    "date": "2020-11-21",
+    "topic": "Economy",
+    "sourceType": "Tweet",
+    "claim": "\u201c...biggest ...regulation cuts in history...\u201d"
+  },
+  {
+    "id": 135,
+    "date": "2020-11-13",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cLast quarter, we witnessed the fastest economic growth ever recorded in the history of our country: 33.1 percent.\u201d"
+  },
+  {
+    "id": 136,
+    "date": "2020-11-03",
+    "topic": "Economy",
+    "sourceType": "Interview",
+    "claim": "\u201cWe built the greatest economy in the world.\u201d"
+  },
+  {
+    "id": 137,
+    "date": "2020-11-03",
+    "topic": "Economy",
+    "sourceType": "Interview",
+    "claim": "\u201cYou saw the 33.1 on Thursday. That's the biggest number we have ever had GDP.\u201d"
+  },
+  {
+    "id": 138,
+    "date": "2020-11-03",
+    "topic": "Economy",
+    "sourceType": "Interview",
+    "claim": "\u201cAnd you look at the regulation cuts, biggest in history.\u201d"
+  },
+  {
+    "id": 139,
+    "date": "2020-11-03",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cWe had 33.1% percent up in growth GDP and nobody's ever seen a number like that.\u201d"
+  },
+  {
+    "id": 140,
+    "date": "2020-11-03",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cWe closed up the greatest economy in the history of the world for any country, not just for our country,\u201d"
+  },
+  {
+    "id": 141,
+    "date": "2020-11-03",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cYou look at what we've done. Opportunity Zones with Tim Scott of South Carolina is great.\u201d"
+  },
+  {
+    "id": 142,
+    "date": "2020-11-03",
+    "topic": "Economy",
+    "sourceType": "Interview",
+    "claim": "\u201cWisconsin had the best year that they've ever had last year.\u201d"
+  },
+  {
+    "id": 143,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cUnder my leadership, our economy is now growing at the fastest rate ever recorded, last Friday it was released, 33.1% the fastest.\u201d"
+  },
+  {
+    "id": 144,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cMaybe more importantly, we did regulation cuts which were also the biggest in the history of our country. Whether it be four years, eight years, or in one case, more.\u201d"
+  },
+  {
+    "id": 145,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cYou had the best three years that you ever had under President Trump. The best three years. And next year will be the best of all.\u201d"
+  },
+  {
+    "id": 146,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cWe built the greatest economy in history.\u201d"
+  },
+  {
+    "id": 147,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cUnder my leadership our economy is now growing at the fastest rate ever recorded; 33.1%.\u201d"
+  },
+  {
+    "id": 148,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cWe created a record 11.4 million jobs in the last five months.\u201d"
+  },
+  {
+    "id": 149,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cIf the radical left gained power. they will collapse our economy and send our nation into a depression.\u201d"
+  },
+  {
+    "id": 150,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cUnder my leadership, our economy is now growing at the fastest rate ever recorded, 33.1 percent, fastest ever recorded.\u201d"
+  },
+  {
+    "id": 151,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cThey [Biden] will collapse our economy and send your nation, this wonderful nation, into a depression.\u201d"
+  },
+  {
+    "id": 152,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Tweet",
+    "claim": "\u201cUnder my leadership, our ECONOMY is now growing at the fastest rate EVER recorded\u201433.1%! #MAGA\u201d"
+  },
+  {
+    "id": 153,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Tweet",
+    "claim": "\u201cJoe Biden\u2019s plan to BAN FRACKING is an Economic DEATH SENTENCE for Pennsylvania.\u201d"
+  },
+  {
+    "id": 154,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Tweet",
+    "claim": "\u201cBiden\u2019s energy ban will send every state into crushing poverty, from Michigan, to Wisconsin to Arizona to Pennsylvania.\u201d"
+  },
+  {
+    "id": 155,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cThe best [economic years] you've ever had and, you're gonna have the best year you ever had next year...We had the greatest economy we've ever had.\u201d"
+  },
+  {
+    "id": 156,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cOur economy is now growing at the fastest rate ever. Ever, ever -- recorded. 33.1% you saw that on Friday. \u201d"
+  },
+  {
+    "id": 157,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cThat's a record, while foreign nations are in a free fall. Sadly in a free fall, you look at what's happening with Europe and other places, very sad. We are creating an economic powerhouse unrivaled anywhere in the world. \u201d"
+  },
+  {
+    "id": 158,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cIf Biden and Harris and the radical left gain power, they will collapse our economy and send our nation into a very steep depression.\u201d"
+  },
+  {
+    "id": 159,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201c[Biden and Harris will be] shutting down your economy.\u201d"
+  },
+  {
+    "id": 160,
+    "date": "2020-11-02",
+    "topic": "Economy",
+    "sourceType": "Speech",
+    "claim": "\u201cBiden's energy ban will send every state into crushing poverty.\u201d"
+  }
+]
