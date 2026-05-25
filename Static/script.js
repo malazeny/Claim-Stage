@@ -1,11 +1,12 @@
 
 let claims = [];
+let visualClaims = [];
 const cloud = document.getElementById("claim-cloud");
 const steps = document.querySelectorAll(".step");
 const claimList = document.getElementById("claim-list");
 
 const topicColors = {
-    "Election fraud": "#1d4e89", 
+    "Election Fraud": "#1d4e89", 
     "Immigration": "#c1121f",
     "COVID-19": "#171717",
     "Economy": "#e5ad2c"
@@ -31,7 +32,9 @@ function createNodes(){
 
     cloud.innerHTML = "";
 
-    claims.forEach((claim, index) => {
+    visualClaims = shuffleClaims(getBalancedClaims(15));
+
+    visualClaims.forEach((claim, index) => {
         const node = document.createElement("div");
         node.className = "claim-node";
 
@@ -48,18 +51,31 @@ function createNodes(){
 }
 
 function updateStage(mode){
+
     const nodes = [...document.querySelectorAll(".claim-node")];
 
     const width = cloud.clientWidth;
     const height = cloud.clientHeight;
 
+    const topicCount = {};
+    const sourceCount = {};
+    const yearCount = {};
+
+    const years = [...new Set(visualClaims.map(claim => claim.year))].sort();
+
     nodes.forEach((node, i) => {
-        const claim = claims[i];
+
+        const claim = visualClaims[i];
+
+        if (!claim) return;
 
         let x = 0;
         let y = 0;
 
+        node.style.width = "120px";
+
         if(mode === "scatter"){
+
             x = random(i * 3) * (width - 160);
             y = random(i * 7) * (height - 100);
         }
@@ -67,52 +83,79 @@ function updateStage(mode){
         if(mode === "topics"){
 
             const map = {
-                "Election fraud": 0,
+                "Election Fraud": 0,
                 "Immigration": 1,
                 "COVID-19": 2,
                 "Economy": 3
             };
 
             const col = map[claim.topic];
-            x = 40 + col * (width / 4);
-            y = 80 + (i % 5) *90;
+
+            topicCount[claim.topic] = (topicCount[claim.topic] || 0) + 1;
+
+            const row = topicCount[claim.topic] - 1;
+
+            x = 40 + col * ((width - 200) / 4);
+            y = 50 + row * 72;
         }
 
         if(mode === "sources"){
+
             const map = {
-                "Tweet":0,
-                "Speech":1,
-                "Interview":2,
-                "Debate":3
+                "Tweet": 0,
+                "Speech": 1,
+                "Interview": 2,
+                "Debate": 3,
+                "Vlog": 3
             };
 
             const col = map[claim.sourceType] || 0;
 
-            x = 40 + col * (width / 4);
-            y = 60 + (i % 6) * 82;
+            sourceCount[claim.sourceType] =
+                (sourceCount[claim.sourceType] || 0) + 1;
 
-            node.style.width = "150px";
+            const row = sourceCount[claim.sourceType] - 1;
+
+            x = 40 + col * ((width - 200) / 4);
+            y = 50 + row * 72;
+
+            node.style.width = "135px";
         }
 
         if(mode === "timeline"){
-            
-            x = ((claim.year - 2016) / 4) * (width -180);
-            y = 100 + (i % 5) * 95;
+
+            const yearIndex = years.indexOf(claim.year);
+
+            yearCount[claim.year] =
+                (yearCount[claim.year] || 0) + 1;
+
+            const row = yearCount[claim.year] - 1;
+
+            x = 40 + yearIndex * ((width - 200) / years.length);
+            y = 50 + row * 72;
+
+            node.style.width = "135px";
         }
 
         if(mode === "archive"){
-            x = (i % 2) * 240 +70;
-            y = Math.floor(i / 2) * 90 +50;
 
-            node.style.width = "190px";
+            const col = i % 3;
+            const row = Math.floor(i / 3);
+
+            x = 40 + col * 220;
+            y = 50 + row * 90;
+
+            node.style.width = "180px";
         }
 
         node.style.transform = `
-        translate(${x}px, ${y}px)
-        rotate(${random(i * 9) * 10 - 5}deg)
-      `;
+            translate(${x}px, ${y}px)
+            rotate(${random(i * 9) * 10 - 5}deg)
+        `;
     });
-  }
+}
+
+
 
 function setupScroll(){
 
@@ -135,7 +178,9 @@ function setupScroll(){
 
   function renderArchive(){
 
-    claimList.innerHTML = claims.map(claim => `
+    const archiveClaims = getBalancedClaims(6);
+
+    claimList.innerHTML = archiveClaims.map(claim => `
         <article class="claim-card">
             <div class="claim-card-top">
                 <span class="topic">${claim.topic}</span>
@@ -151,6 +196,25 @@ function setupScroll(){
 function random(seed){
     const x = Math.sin(seed * 9999) * 10000;
     return x - Math.floor(x);
+}
+
+function getBalancedClaims(limitPerTopic = 15) {
+    const topics = ["Election Fraud", "Immigration", "COVID-19", "Economy"];
+    let balanced = [];
+
+    topics.forEach(topic => {
+        const topicClaims = claims
+            .filter(claim => claim.topic === topic)
+            .slice(0, limitPerTopic);
+
+        balanced = balanced.concat(topicClaims);
+    });
+
+    return balanced;
+}
+
+function shuffleClaims(array) {
+    return [...array].sort((a, b) => random(a.id) - random(b.id));
 }
 
 let machineTopic = "All";
@@ -176,7 +240,9 @@ function machineFilteredClaims(){
 function renderInteractiveMachine(){
     if(!interactiveMachine || !claims.length) return;
 
-    const data = machineFilteredClaims();
+    const data = machineTopic === "All"
+        ? getBalancedClaims(20)
+        : machineFilteredClaims().slice(0, 80);
     machineVisibleCount.textContent = `${data.length} visible`;
 
     interactiveMachine.innerHTML = data.map((claim, index) => {
